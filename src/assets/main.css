@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    background-image: url("../assets/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    font-family: "Poppins";
+    
+    
+}
+
+.img-min-perfil{
+    border-radius: 150px;
+    height: 80px;
+    width: 80px;
+}
+
+.container-publicacion{
+    
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+
+}
+
+textarea{
+    background-color: rgb(243, 237, 237) !important;
+    
+}
